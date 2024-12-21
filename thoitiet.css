@@ -1,0 +1,224 @@
+/* Main CSS file for "Tin TTVN", built1604 - Kyo*/
+/* Money CSS */
+.vote_box1
+{
+	border-right: #e09a4b 1px solid;
+	border-top: #fefbba 1px solid;
+	font-weight: bolder;
+	border-left: #e09a4b 1px solid;
+	color: black;
+	border-bottom: #e09a4b 1px solid;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	background-color: #fdffed;
+	text-decoration: none;
+}
+.poll_table TD
+{
+	font-weight: normal;
+	color: black;
+	font-family: Arial, Helvetica, Geneva, Swiss, SunSans-Regular;
+	background-color: #fdffed;
+	text-decoration: none;
+}
+.content1
+{
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: normal;
+	font-family: Verdana;
+	background-color: #003366;
+	font-variant: normal;
+}
+.content1 A:link
+{
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: normal;
+	font-family: Verdana;	
+	background-color: #003366;
+	text-align: left;
+	font-variant: normal;
+}
+.content1 A:link
+{
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: normal;
+	font-family: Verdana;
+	background-color: #003366;
+	text-align: left;
+	font-variant: normal;
+}
+.content1 A:visited
+{
+	text-align: left;
+	font-weight: bold;
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #ffffff;
+	line-height: normal;
+	font-family: Verdana;
+	background-color: #003366;
+	font-variant: normal;
+	
+}
+
+.clMoneyTable
+{
+	border-left-color: #7ea9f2;
+	border-bottom-color: #7ea9f2;
+	border-top-style: none;
+	border-top-color: #7ea9f2;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	border-right-color: #7ea9f2;
+	border-bottom-style: none;
+}
+.clMoneyTableList
+{
+	border-right: brown 1px solid;
+	border-top: brown 1px solid;
+	border-left: brown 1px solid;
+	border-bottom: brown 1px solid;
+	background-color: white;
+}
+.clMoneyHeader
+{
+	font-weight: bold;
+	font-size: 13px;
+	background-image: none;
+	color: white;
+	font-family: Tahoma;
+	text-align: center;
+}
+.clMoneyField1
+{
+	font-size: 13px;
+	font-family: Arial;
+	background-color: papayawhip;
+	text-align: center;
+}
+.clMoneyField2
+{
+	font-size: 13px;
+	font-family: Arial;
+	background-color: snow;
+	text-align: center;
+}
+/* End of Money CSS */
+/* Medal CSS */
+.clMedalTable
+{
+	border-left-color: #7ea9f2;
+	border-bottom-color: #7ea9f2;
+	border-top-style: none;
+	border-top-color: #7ea9f2;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	border-right-color: #7ea9f2;
+	border-bottom-style: none;
+}
+.clMedalTableList
+{
+	border-right: #009933 1px solid;
+	border-top: #009933 1px solid;
+	border-left: #009933 1px solid;
+	border-bottom: #009933 1px solid;
+	background-color: white;
+}
+.clMedalHeader
+{
+	font-weight: bold;
+	font-size: 13px;
+	background-image: url(/images/TTVN/title_bg.gif);
+	color: white;
+	font-family: Tahoma;
+	text-align: center;
+}
+.clMedalListHeader
+{
+	font-weight: bold;
+	font-size: 11px;
+	font-family: Verdana;
+	background-color: gainsboro;
+	text-align: center;
+}
+.clMedalListField
+{
+	font-size: 13px;
+	font-family: Arial;
+	background-color: white;
+	text-align: center;
+}
+.clMedalListFieldAlt
+{
+	font-size: 13px;
+	font-family: Arial;
+	background-color: whitesmoke;
+	text-align: center;
+}
+/* End of Medal CSS */
+
+/* Weather CSS */
+.clTable
+{
+	border-left-color: #7ea9f2;
+	border-bottom-color: #7ea9f2;
+	border-top-style: none;
+	border-top-color: #7ea9f2;
+	border-right-style: none;
+	border-left-style: none;
+	background-color: transparent;
+	border-right-color: #7ea9f2;
+	border-bottom-style: none;
+}
+.clTableList
+{
+	border-right: darkred 1px solid;
+	border-top: darkred 1px solid;
+	border-left: darkred 1px solid;
+	border-bottom: darkred 1px solid;
+	background-color: white;
+}
+.clHeader
+{
+	font-weight: bold;
+	font-size: 12px;
+	background-image: none;
+	color: white;
+	font-family: Tahoma;
+	background-color: darkred;
+	text-align:center;
+	height:20;
+}
+
+.clItem1
+{
+	font-size: 12px;
+	font-family: Arial;
+	background-color: peachpuff;
+}
+.clItem2
+{
+	font-size: 12px;
+	font-family: Arial;
+	background-color: #ffffec;
+	text-align: center;
+}
+.clItem3
+{
+	font-size: 13px;
+	font-family: Arial;
+	background-color: #fff6e0;
+	text-align: center;
+}
+/* End of Weather CSS */
+

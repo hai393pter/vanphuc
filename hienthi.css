@@ -1,0 +1,437 @@
+BODY {
+	SCROLLBAR-FACE-COLOR: 5BC0E0;
+	SCROLLBAR-HIGHLIGHT-COLOR: 99D8EC;
+	SCROLLBAR-SHADOW-COLOR: 1F83A3;
+	SCROLLBAR-3DLIGHT-COLOR: 99D8EC;
+	SCROLLBAR-ARROW-COLOR: 1A6B85;
+	SCROLLBAR-TRACK-COLOR: 99D8EC;
+	SCROLLBAR-BASE-COLOR: #0099CC;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	background-image: url(images/bg_main.gif);
+	text-align: center;
+}
+.tab, tr.tab, td.tab{font-family:Verdana, Arial, Helvetica, sans-serif; font-size:11px; color:#666666;}
+.box, input.box, textarea.box {
+	BACKGROUND-COLOR: DBEDF9;
+	BORDER: 1px solid #006699;
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	COLOR: black;
+	FONT-SIZE: 8pt;
+}
+.sidelinks {
+	DISPLAY: block;
+	MARGIN: 0px;
+	PADDING-LEFT: 10px;
+	FONT: bold 11px/14px Tahoma, Arial, Helvetica, sans-serif;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR: #006697;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color:#004364;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+.sidelinks:link {
+	DISPLAY: block;
+	MARGIN: 0px;
+	PADDING-LEFT: 10px;
+	FONT: bold 11px/12px Tahoma, Arial, Helvetica, sans-serif;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR: #006697;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #004364;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.sidelinks:visited {
+	DISPLAY: block;
+	MARGIN: 0px;
+	PADDING-LEFT: 10px;
+	FONT: bold 11px/12px Tahoma, Arial, Helvetica, sans-serif;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR:#006697;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #004364;
+	padding-top: 5px;
+	padding-bottom:5px;
+}
+
+.sidelinks:hover {
+	DISPLAY: block;
+	MARGIN: 0px;
+	PADDING-LEFT: 10px;
+	FONT: bold 11px/12px Tahoma, Arial, Helvetica, sans-serif;
+	COLOR:#FFFFFF;
+	BACKGROUND-COLOR:#0077B0;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #004364;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+.text {
+	FONT-SIZE: 11px; COLOR: #666666; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif
+}
+A.text:link {
+	FONT-SIZE: 13px;
+	COLOR: #333333;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+A.text:visited  {
+	FONT-SIZE: 13px;
+	COLOR: #333333;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+A.text:hover  {
+	FONT-SIZE: 13px;
+	COLOR: #0099FF;
+	LINE-HEIGHT: 16px;
+	FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.white {
+	FONT-SIZE: 11px;
+	COLOR: #ffffff;
+	FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+
+.texto {
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	text-align: justify;
+}
+.trichdantin {
+	FONT-SIZE: 11px;
+	COLOR: #333333;
+	font-weight:bold;
+	FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	text-align: justify;
+}
+
+.dot_bottom { BORDER-BOTTOM: #d1d1d1 1px dotted}
+
+
+.tin-list {
+	FONT-SIZE: 16px;
+	COLOR: #FF0000;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	TEXT-DECORATION: blink;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 10px;
+}
+.input1 {
+	FONT-SIZE: 10px;
+	WIDTH: 130px;
+	CURSOR: auto;
+	COLOR: black;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	HEIGHT: 18px;
+	BACKGROUND-COLOR: #FFFFFF;
+	border: 1px solid 2088CE;
+}
+.input2 {
+	FONT-SIZE: 10px;
+	WIDTH: 160px;
+	CURSOR: auto;
+	COLOR: #666666;
+	FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+	HEIGHT: 18px;
+	BACKGROUND-COLOR: #E6F1F9;
+	border: 1px solid #2088CE;
+}
+.doc_line {
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #AECEE7;
+}
+.bottom_line {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #00507F;
+	letter-spacing: 1px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: 7F9DA7;
+}
+.ngay {
+	color: #FFFFFF;
+	font-size: 9px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.giatien {
+	FONT-SIZE: 11px;
+	COLOR: #FF0000;
+	FONT-FAMILY: Tahoma, Verdana, Arial;
+	TEXT-DECORATION: blink;
+	font-style: italic;
+	font-weight: bold;
+}
+.tuyendung{
+	FONT-SIZE: 11px;
+	COLOR: #333333;
+	FONT-FAMILY: Tahoma, Verdana, Arial;
+	background-attachment: fixed;
+	background-image: url(images/khuyenmai1.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	text-align: justify;
+	background-color: #FFFFFF;
+	line-height: 18px;
+}	
+.sidelinks1:link {
+	DISPLAY: block;
+	MARGIN: 0px;
+	PADDING-LEFT: 15px;
+	FONT: 11px Tahoma, Arial, Helvetica, sans-serif;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR:#008FD5;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #0077B0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.sidelinks1:visited {
+	DISPLAY: block;
+	MARGIN: 0px;
+	PADDING-LEFT: 15px;
+	FONT: 11px Tahoma, Arial, Helvetica, sans-serif;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR:#008FD5;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #0077B0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.sidelinks1:hover {
+	DISPLAY: block;
+	MARGIN: 0px;
+	PADDING-LEFT: 15px;
+	FONT: 11px Tahoma, Arial, Helvetica, sans-serif;
+	COLOR: #FFFFFF;
+	BACKGROUND-COLOR: #008ACC;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #0077B0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+.sidelinks1_selected{
+	DISPLAY: block;
+	MARGIN: 0px;
+	PADDING-LEFT: 15px;
+	FONT: 11px Tahoma, Arial, Helvetica, sans-serif;
+	COLOR:#FFFFFF;
+	BACKGROUND-COLOR: #008FD5;
+	TEXT-DECORATION: none;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #0077B0;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
+.titthuong {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #000033;
+}
+
+.footer1{	
+	FONT: 11px Tahoma, Verdana, Arial;
+	COLOR: #003F8C;
+}	
+
+.text_bold {
+	FONT-SIZE: 11px;
+	COLOR: #000000;
+	FONT-FAMILY: Verdana, Arial, Geneva, Helvetica, sans-serif;
+	font-weight: bold;
+}
+.newbox {
+	font-family: Verdana, Arial, "Times New Roman", sans-serif;
+	font-size: 11px;
+	color: #000066;
+	background-color: #DBEDF9;
+	border: 1px solid #2088CE;
+	text-align: justify;
+}
+
+.bullet {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+	list-style-image: url(images/arrow_green_2.gif);
+	text-align: justify;
+}
+.sun {
+	FONT-SIZE: 9px; COLOR: #000000; FONT-FAMILY: Verdana, Geneva, Arial, Helvetica, sans-serif
+}
+A.sun:link {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.sun:visited {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.sun:active {
+	COLOR: #000000; TEXT-DECORATION: none
+}
+A.sun:hover {
+	COLOR: #FF0000; TEXT-DECORATION: underline
+}
+.line {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #006699;
+	font-size: 10px;
+}
+.companyName {
+	color: #FF0000;
+	font-weight: bold;
+}
+.title_head, .title_head a, .title_head:link, .title_head:active, .title_head:visited{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	color:#D30000;
+	text-decoration:none;
+	filter: progid:DXImageTransform.Microsoft.DropShadow(color='#dddddd', offX=2, offY=2);	
+}
+.title_head:hover{text-decoration:underline;}
+/*CAP NHAT DATE-TIME*/
+.capnhat
+{	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:#999999;
+}
+/*CAC TIN BAI KHAC*/
+.tin_dadua_tieude{
+padding-bottom:5;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:13px;
+	font-weight:bold;
+	color:#000000;
+	text-align:justify;
+}
+
+.tin_dadua, .tin_dadua a, .tin_dadua a:link, .tin_dadua a:active, .tin_dadua a:visited{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#375579;
+	line-height:18px;
+	text-align:justify;
+	text-decoration:none;
+}
+.tin_dadua a:hover{color:#006699; text-decoration:underline;}
+.markred{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	color: #EB2D2E;
+	font-weight: bold;
+}
+.TextBox, input.TextBox, textarea.TexBox {
+	BACKGROUND-COLOR: white;
+	BORDER: 1px solid #B00300;
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	COLOR: black;
+	FONT-SIZE: 8pt;
+}
+.gia{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	FONT-SIZE: 8pt;
+	font-weight:bold;
+}
+.kho{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	FONT-SIZE: 8pt;
+}
+.kho4{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	FONT-SIZE: 8pt;
+	COLOR: #FFFFFF;
+}
+.kho1{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	FONT-SIZE: 9pt;
+	font-weight:bold;
+	COLOR: #408080;
+}
+.spkhac{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	FONT-SIZE: 9pt;
+	font-weight:bold;
+	COLOR: #007AF4;
+}
+.kho2{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	FONT-SIZE: 8pt;
+	font-weight:bold;
+	COLOR: #53A9FF;
+}
+.kho3{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	FONT-SIZE: 12pt;
+	font-weight:bold;
+	COLOR:#366D6D;
+}
+
+.tensp, .tensp a, .tensp a:link,.tensp a:active,.tensp a:visited{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	FONT-SIZE: 8pt;
+	color:#006699;
+	font-weight:bold;
+	text-decoration:none;
+}
+.tensp a:hover{color: #CC0000; text-decoration:underline}
+.xemtiep{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	FONT-SIZE: 8pt;
+}
+.tree, .tree a:link, .tree a:active, .tree a:visited{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	color:#006699;
+	FONT-SIZE: 8pt;
+	font-weight:bold;
+	text-decoration:none;}
+.tree a:hover {color: #CC0000; text-decoration:underline} 
+.spmoi, .spmoi a, .spmoi a:link, .spmoi a:active, .spmoi a:visited{
+	FONT-FAMILY: Verdana, Arial,sans-serif;
+	color:#666666;
+	FONT-SIZE: 11px;
+	text-decoration:none;
+}
+.spmoi a:hover{text-decoration:underline}
+.spmoi_scroll, .spmoi_scroll a, .spmoi_scroll a:link, .spmoi_scroll a:active, .spmoi_scroll a:visited {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 11px;
+	color: #000066;
+	text-align: center;
+	text-decoration:none;
+}
+.spmoi_scroll a:hover{text-decoration:underline;}

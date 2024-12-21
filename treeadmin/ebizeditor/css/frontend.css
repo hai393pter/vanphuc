@@ -1,0 +1,304 @@
+body {
+	font-family: "Arial", Verdana;
+	font-size: 12px;
+	margin-top:20px;
+}
+
+td, tr, th, p {
+	font-family:  Arial, Verdana;
+    font-size: 12px;
+}
+TT {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #004466
+}
+ACRONYM {
+	CURSOR: help; BORDER-BOTTOM: #006699 1px dashed
+}
+
+A, A:link, A:active, A:visited {
+	COLOR: #004466;
+	text-decoration:none;
+}
+A:hover {
+	COLOR: #006ea6;
+	text-decoration:underline;
+}
+.border {
+	BORDER-RIGHT: #9ebac7 1px solid; BORDER-TOP: #9ebac7 1px solid; BORDER-LEFT: #9ebac7 1px solid; BORDER-BOTTOM: #9ebac7 1px solid; TEXT-ALIGN: left
+}
+.header {
+	FONT-SIZE: 16px; FONT-WEIGHT: bold; COLOR: #006699; FONT-FAMILY: Trebuchet MS, Arial, sans-serif; TEXT-ALIGN: left
+}
+.bodytext {
+	FONT-SIZE: 8pt; COLOR: #006699; LINE-HEIGHT: 16px; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif;
+}
+.dot {
+	BACKGROUND-IMAGE: url(dot.gif); BACKGROUND-REPEAT: repeat-x; TEXT-ALIGN: left
+}
+.tdheade {
+	FONT-WEIGHT: bold; FONT-SIZE: 8pt; BACKGROUND: url(tablebg.gif); COLOR: #4f8099; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.tableborder {
+	BORDER-RIGHT: #dde7ec 2px solid; BORDER-TOP: #dde7ec 2px solid; BORDER-LEFT: #dde7ec 2px solid; BORDER-BOTTOM: #dde7ec 2px solid; TEXT-ALIGN: left
+}
+.tabletxt, .tabletxt a, .tabletxt a:hover.tabletxt a:active, .tabletxt a:visited {
+	FONT-SIZE: 7pt; COLOR: #FFFFFF; LINE-HEIGHT: normal; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+
+.formstyle {
+	BORDER-RIGHT: #9ebac7 1px solid; BORDER-TOP: #9ebac7 1px solid; FONT-SIZE: 8pt; BORDER-LEFT: #9ebac7 1px solid; COLOR: #333333; BORDER-BOTTOM: #9ebac7 1px solid; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif; BACKGROUND-COLOR: #ffffff
+}
+
+.articleText { text-align: justify; }
+
+.articleCode {
+    font-family: "Courier New", Courier, mono;
+	font-size: 12px;
+}
+
+.articleHead, .articleList_tophead, h1, h2 {
+	font-weight: bold;
+	font-size: 13px;
+    font-family:  "Arial", Verdana;
+	text-decoration: none;
+	color : #000000;
+	text-align: justify;
+}
+
+.articleSubHead, .articleList_topsubhead, h3, h4 {
+	font-family:  Arial, Verdana;
+	font-size: 13px;
+	font-weight: normal;
+	color: #000000;
+	line-height: 14px;
+	margin-bottom: 0px;
+	text-align: justify;
+}
+
+.articleSummary {
+	font-family: Arial, Verdana;
+	font-size: 12px;
+	color: #000000;
+	line-height: 14px;
+	text-align: justify;
+}
+
+.contentHead {
+	font-family:  Arial,  sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	color: #6D7983;
+	line-height: 110%;
+}
+
+.contentSubHead {
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	line-height: 110%;
+}
+
+.tableHead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	color: #6D7983;
+	line-height: 13px;
+}
+
+.tableSubHead {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+
+.v09 {  font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 9px; }
+.v10 {  font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 10px; }
+.v11 {  font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; }
+.v12 {  font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 12px; }
+.v13 {  font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 13px; }
+.v14 {  font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 14px; }
+
+
+.formButton	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF; background-color: #92A1AF; }
+.formLabel	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 10px; }
+.checkLabel	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 10px; font-weight: bold;}
+.radioLabel	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 10px; font-weight: bold;}
+.formTextArea	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px;	}
+.inputText	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold;}
+.inputPass	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold;}
+.selectMenu	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold;}
+.selectList	{ font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 11px; font-weight: bold;}
+
+/* search */
+.formSearch { font-family: Verdana, Helvetica, Arial, sans-serif; font-size: 12px; font-weight: bold;}
+.search_form {}
+.search_result {	font-family:  Arial, Verdana;	font-size: 12px;}
+
+
+
+.nav_table, .nav_table a, .nav_table a:link, .nav_table a:active, .nav_table a:visited, .nav_table a:hover {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	color: #4A5966;
+	font-weight: normal;
+	text-decoration: none;
+}
+.nav_table a:hover {
+	text-decoration: underline;
+}
+
+.nav_table_active, .nav_table_active a, .nav_table_active a:link, .nav_table_active a:active, .nav_table_active a:visited, .nav_table_active a:hover {
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 10px;
+	color: #4A5966;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.articleList_toptext {
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+	font-size: 10px;
+}
+
+.articleList_listhead {
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+
+/* CSS for the top level list */
+#list_top_ul {
+	padding: 3px 0;
+	margin-left: 0;
+	border-bottom: 1px solid #5E747F;
+	font: bold 12px Verdana, sans-serif;
+}
+#list_top_ul li {
+	list-style: none;
+	margin: 0;
+	display: inline;
+}
+#list_top_ul li a {
+	padding: 3px 0.5em;
+	margin-left: 3px;
+	border: 1px solid #778;
+	border-bottom: none;
+	background: #D7DEE5;
+	text-decoration: none;
+}
+#list_top_ul li a:link { color: #5E747F; }
+#list_top_ul li a:visited { color: #5E747F; }
+#list_top_ul li a:hover {
+	color: Black;
+	background: #92A1AF;;
+	border-color: #227;
+}
+#list_top_ul li a#list_top_active_link, #list_top li a#list_top_home_active_link {
+	background: white;
+	border-bottom: 1px solid white;
+}
+
+/* CSS for the currect level list */
+#list_level ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+}
+#list_level li { margin: 0 0 1px 0; }
+#list_level a {
+	display: block;
+	padding: 2px 2px 2px 24px;
+	border: 1px solid #92A1AF;
+	width: 160px;
+	background-color: #B7C2D0;
+}
+#list_level a:link, #list_level_ul a:visited {
+	color: Black;
+	text-decoration: none;
+}
+#list_level a:hover {
+	border: 1px solid #92A1AF;
+	background-color: #FF8C00;
+	color: Black;
+}
+#list_level_parent a:link, #list_level_parent a:visited, #list_level_parent_link a:hover {
+	border: 1px solid #92A1AF;
+	background-color: #FF6600;
+	color: White;
+}
+
+/*by Luu Thang*/
+.menu, menu a, menu a:link, .menu a:visited, menu a:active{
+	font-family: Verdana, Helvetica, Arial, sans-serif;
+	font-size: 11px;
+	font-weight:bold;
+	color: #006699;
+	text-decoration: none;
+}
+.menu a:hover {font-size:11 px; text-decoration: underline;}
+
+.copyright, .copyright a, .copyright a:link, .copyright a:active, .copyright a:visited {
+	FONT-SIZE: 8pt; COLOR: #ffffff; 
+	FONT-FAMILY: Tahoma, Helvetica, Sans Serif; 
+	text-align: center;
+	text-decoration:none;
+	}
+.copyright a:hover {
+	COLOR: #ffffff; text-decoration: underline;
+}
+.title_news, .title_news a, .title_news a:link, .title_news a:active, .title_news a:visited{
+	font-family:Arial, Tahoma, Verdana;
+	font-size: 11px;
+	color:#003366;
+	font-weight:normal;
+	text-decoration:underline;
+	}
+.title_news a:hover{
+	font-family:Arial, Tahoma, Verdana;
+	text-decoration:none;
+	}
+.news_header, .news_header a, .news_header a:link, .news_header a:active, .news_header a:visited {
+	font-family: Arial, Tahoma, Verdana;
+	font-size: 12px;
+	color:#333333;
+	font-weight:normal;
+	text-decoration:none;
+}
+.news_header a:hover{text-decoration:underline;}
+.image_caption {
+	font-family:Tahoma, Verdana;
+	font-size:10;
+	color:#0000FF;
+	text-decoration:none;
+}
+.table_left_right_border {
+	border-right-width: 1px;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-color: #000000;
+	border-left-color: #000000;
+}
+.table_sub_story {
+	border-right-width: thin;
+	border-left-width: 1px;
+	border-top-style: none;
+	border-right-style: dashed;
+	border-bottom-style: none;
+	border-left-style: solid;
+	border-right-color: #666666;
+	border-left-color: #000000;
+}
+.top_td {background-color:#000099}
+.titlebold {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color:#FF0066;
+}
